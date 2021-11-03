@@ -1,0 +1,75 @@
+/*.App {
+  text-align: center;
+}*/
+.BlockExplorer {
+  background-color: white;
+  height: 100vh;
+  vertical-align:top;
+  color: #0c1a2b;
+}
+
+.logo-header {
+  margin-top: 40px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.app-header {
+  padding: 20px;
+  color: #0c1a2b;
+  text-align: center;
+}
+
+.App-header {
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.block-content {
+}
+
+.block-table {
+  margin: auto;
+  margin-top: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+ .loader {
+ height: 12em;
+ margin: -6em 0px 0px -6em;
+ padding: 10px;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ width: 12em;
+ z-index: 9999;
+ }
+
+ .loader svg {
+ height: 12em;
+ width: 12em;
+ }
+
+ .loader svg path {
+ stroke-width: 0px;
+ }
+
+ .loader svg path {
+ fill: #44cbf8;
+ stroke: none;
+ }
